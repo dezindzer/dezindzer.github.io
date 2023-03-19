@@ -1,0 +1,254 @@
+# Site
+repository: miraai/miraai.github.io
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Ajla Dzekovic
+title: Senior Infrastructure Engineer
+email: dzekovic.ajla@protonmail.com
+# email_title: Email (Email title override)
+# phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
+website: miraai.github.io
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: jekyllrb
+github_username:  miraai
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+linkedin_username: ajladzekovic
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+# additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: <mark>About</mark>
+# about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_content: | # this will include new lines to allow paragraphs
+  <h2><img src="https://media.baamboozle.com/uploads/images/749539/1655077376_132190_gif-url.gif" width="50"> Beep, boop </h2>
+
+  ```hcl
+  🔭 Infrastructure Engineer at Rasa
+  ⚡ Live and breathe infrastructure as code
+  🌱 Working on CKA
+  🌒 Learning more about Open Source
+  ❓ Love/hate relationship with programming
+  🔧 When I grow up I want to be a car mechanic
+  🐕 Have a staffy, secretly a cat
+  ```
+
+
+# Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+# You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#   - Lists
+#   - Tables
+#   - <a href="google.com">Links</a>
+#   - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: left
+  #       border: weak  # Value of `weak` will display a weak border below this item. # Any 
+  #                     # other value (or no value) means no border will be displayed
+  #       title: Project name
+  #       link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       link_text: Link Text
+  #       additional_links:
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #         - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #           icon: fab fa-github
+  #           url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  #       quote: >
+  #         Short overview of the project (optional)
+  #       description: | # this will include new lines to allow paragraphs
+  #         Description about the work on/with the project
+  - title: <mark>Experience</mark>
+    layout: list
+    content:
+      - layout: left
+        title: Rasa
+        sub_title: Senior Infrastructure Engineer
+        caption: 2022 - Present
+        link: rasa.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Infrastructure as Code in Pulumi using Python and Terraform.
+          - Infrastructure provisioning and arhitecture on AWS and GCP.
+          - Kubernetes cluster hardening and provisioning.
+          - Implementing best practices and providing additional support to Security.
+          - Implementing Ci/CD best practices with Github Actions.
+      - layout: left
+        title: Embroker
+        sub_title: Senior Infrastructure Engineer
+        caption: 2021 - 2022
+        link: embroker.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Migrated Embroker platform from Heroku to AWS ECS Fargate.
+          - AWS architecture and planning.
+          - Infrastructure as Code using Terraform.
+          - Development processes and deployment workflow using Github Actions.
+          - Monitoring and logging using Dynatrace and AWS Cloudwatch.
+      - layout: left
+        title: Oddity
+        sub_title: Senior Infrastructure Engineer
+        caption: 2020 - 2022
+        link: odt.net
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Infrastructure as Code with Terraform and Terragrunt.
+          - Kubernetes provisioning and maintaining.
+          - GitOps flow with Helm, Fluxcd and Helm Operator.
+          - Monitoring and alerting with Grafana, Prometheus, Splunk and Loki.
+          - CI/CD with Gitlab pipelines and Github Actions.
+      - layout: left
+        title: TradeCore
+        sub_title: Senior DevOps Engineer
+        caption: 2019 - 2020
+        link: tradecore.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Infrastructure as Code with Terraform for EKS and ECS Fargate.
+          - Helm charts and Helmfile for multi-environment deployments.
+          - Production monitoring and alerting using Datadog, Grafana, StatusCake and OpsGenie.
+          - CI/CD with Gitlab and AWS CodePipelines.
+          - Serverless Framework for Lambda
+      - layout: left
+        title: Edge Technologies
+        sub_title: Senior DevOps Engineer
+        caption: 2019 - 2020
+        link: edge-technologies.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Infrastructure as Code with Terraform for AWS.
+          - Automated application packaging and deployment.
+          - Implemented and maintained CI/CD pipelines (AWS CodePipeline with CodeCommit, CodeBuild and CodeDeploy)
+          - Build tools and systems for internal engineering teams.
+      - layout: left
+        title: NCR Corporation
+        sub_title: DevOps Engineer
+        caption: 2017 - 2019
+        link: ncr.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Introduced infrastructure operations, CI/CD and automation.
+          - Collaborated with team members to create systems for remote troubleshooting of Windows and Linux based machines and remote problem solving solutions.
+          - Interfaced with business analysts, developers and technical support to determine requirement specifications.
+      - layout: left
+        title: NCR Corporation
+        sub_title: Software Engineer I
+        caption: 2017 - 2017
+        link: ncr.com
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - C# and .NET Framework.
+          - Backend wrapped around legacy Delphi code for custom made Walmart protocol.
+          - Improvements in remote-troubleshooting software for SelfCheckOut and PoS machines.
+      - layout: left
+        title: Metropolitan University
+        sub_title: Graduate Teaching Assistant
+        caption: 2016 - 2018
+        link: metropolitan.ac.rs
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - TA on the following classes: Operating Systems, Introduction to OOP and Distributed Systems.
+          - Created assignments, proctored tests, and provided grades according to University standards.
+          - Documented attendance and completed assignments to maintain full class and student records.
+      - layout: left
+        title: Metropolitan University
+        sub_title: Software Engineer Intern
+        caption: 2016 - 2017
+        link: metropolitan.ac.rs
+        # quote: >
+        #   Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          - Developed and maintained software created for faculty employees.
+          - Developed new process for employee evaluation which resulted in marked performance improvements.
+  - title: <mark>Education</mark>
+    layout: list
+    content:
+      - layout: top-left
+        title: Metropolitan University
+        sub_title: Bachelor Degree in Software Engineering
+        caption: 2014 - 2018
+        # quote: >
+        #   Short institution or course description (optional)
+        # description: | # this will include new lines to allow paragraphs
+        #   Description of qualification
+  - title: <mark>Passions</mark>
+    layout: list
+    content:
+      - layout: top-left
+        sub_title: <mark>Nintendo Switch</mark>
+      - layout: top-left
+        sub_title: <mark>Star Trek</mark>
+      - layout: top-left
+        sub_title: <mark>Mechanical Keyboards</mark>
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
