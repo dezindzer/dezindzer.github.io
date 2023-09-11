@@ -1,6 +1,6 @@
 # Site
-repository: miraai/miraai.github.io
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: dezindzer/dezindzer.github.io
+favicon: /assets/favicon.png
 
 # Content configuration version
 version: 2

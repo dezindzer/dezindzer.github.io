@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "modern-resume-theme/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "miraai.github.io"
+  spec.name          = "dezindzer.github.io"
   spec.version       = ModernResumeTheme::VERSION
   spec.authors       = ["James Grant"]
   spec.email         = ["sprog31@gmail.com"]
