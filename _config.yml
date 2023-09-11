@@ -52,16 +52,14 @@ google_analytics: "G-1WDZG8JDEV"
 about_title: <mark>About</mark>
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  <h2><img src="https://media.baamboozle.com/uploads/images/749539/1655077376_132190_gif-url.gif" width="50"> Beep, boop </h2>
 
-  ```hcl
-  |As an architect, I work mostly on residential buildings and Cleanrooms, communicate with lead architects and builders to deliver finished product on-time and under-budget.
-  |My previous work as a designer includes various digital media, ranging from images to videos. I worked on websites, created logos, done video post-production, and more.
+  <mark>As an architect, I work mostly on residential buildings and Cleanrooms, communicate with lead architects and builders to deliver finished product on-time and under-budget.</mark>
+  <mark>My previous work as a designer includes various digital media, ranging from images to videos. I worked on websites, created logos, done video post-production, and more.</mark>
   - See my LinkedIn profile for more information.
 
-  |I'm passionate about automation and simplifying tasks. 
+  <mark>I'm passionate about automation and simplifying tasks. </mark>
   - See my GitHub profile for more information.
-  ```
+
 
 
 # Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
