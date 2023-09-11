@@ -1,6 +1,6 @@
 # Site
 repository: dezindzer/dezindzer.github.io
-favicon: /assets/favicon.png
+favicon: assets/favicon.png
 
 # Content configuration version
 version: 2
@@ -51,17 +51,17 @@ google_analytics: "G-1WDZG8JDEV"
 # About Section
 about_title: <mark>About</mark>
 about_profile_image: assets/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+# about_content: | # this will include new lines to allow paragraphs
 
-  <mark>Architecture</mark> 
-  As an architect, I work mostly on residential buildings and Cleanrooms, communicate with lead architects and builders to deliver finished product on-time and under-budget.
+  <mark>Architecture</mark></br>
+  As an architect, I work mostly on residential buildings and Cleanrooms, communicate with lead architects and builders to deliver finished product on-time and under-budget.</br>
   
-  <mark>Design</mark>
-  My previous work as a designer includes various digital media, ranging from images to videos. I worked on websites, created logos, done video post-production, and more.
+  <mark>Design</mark></br>
+  My previous work as a designer includes various digital media, ranging from images to videos. I worked on websites, created logos, done video post-production, and more.</br>
   - See my LinkedIn profile for more information.
 
-  <mark>Coding</mark>
-  I'm passionate about automation and simplifying tasks.
+  <mark>Coding</mark></br>
+  I'm passionate about automation and simplifying tasks.</br>
   - See my GitHub profile for more information.
 
 
