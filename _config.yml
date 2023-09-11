@@ -50,7 +50,7 @@ google_analytics: "G-1WDZG8JDEV"
 
 # About Section
 about_title: <mark>About</mark>
-# about_profile_image: Directory of profile image (eg. images/profile.jpg)
+about_profile_image: assets/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
 
   <mark>Architecture</mark> 
@@ -59,7 +59,7 @@ about_content: | # this will include new lines to allow paragraphs
   <mark>Design</mark>
   My previous work as a designer includes various digital media, ranging from images to videos. I worked on websites, created logos, done video post-production, and more.
   - See my LinkedIn profile for more information.
-  
+
   <mark>Coding</mark>
   I'm passionate about automation and simplifying tasks.
   - See my GitHub profile for more information.
