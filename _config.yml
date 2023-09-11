@@ -51,7 +51,7 @@ google_analytics: "G-1WDZG8JDEV"
 # About Section
 about_title: <mark>About</mark>
 about_profile_image: assets/profile.jpg
-# about_content: | # this will include new lines to allow paragraphs
+about_content: | # this will include new lines to allow paragraphs
 
   <mark>Architecture</mark></br>
   As an architect, I work mostly on residential buildings and Cleanrooms, communicate with lead architects and builders to deliver finished product on-time and under-budget.</br>
