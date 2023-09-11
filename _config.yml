@@ -6,27 +6,27 @@ repository: miraai/miraai.github.io
 version: 2
 
 # Personal info
-name: Ajla Dzekovic
-title: Senior Infrastructure Engineer
-email: dzekovic.ajla@protonmail.com
+name: Nikola Marković
+title: BIM Specialist
+email: arh.nikola.markovic@gmail.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: miraai.github.io
+website: dezindzer.github.io
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: true
 
 # Social links
 # twitter_username: jekyllrb
-github_username:  miraai
+github_username:  dezindzer
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: jekyll
-linkedin_username: ajladzekovic
+instagram_username: likbezkola
+linkedin_username: nikmark
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: jekyll
@@ -45,8 +45,8 @@ linkedin_username: ajladzekovic
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
 # gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+gtag: "G-1WDZG8JDEV"
+google_analytics: "G-1WDZG8JDEV"
 
 # About Section
 about_title: <mark>About</mark>
